@@ -1,0 +1,34 @@
+.table {
+  border: 2px solid #787b80;
+  border-collapse: collapse;
+}
+
+.miniTable {
+  border-collapse: collapse;
+  margin-block: 1rem;
+}
+
+.miniTable td {
+  border-collapse: collapse;
+  padding: 0.5rem;
+  color: #787b80;
+  font-weight: 600;
+}
+
+.miniTable tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.miniTable tr td:last-child {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.table td {
+  border: 2px solid #787b80;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  color: #787b80;
+  font-weight: 600;
+}
